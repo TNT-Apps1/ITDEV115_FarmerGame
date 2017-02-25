@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Characters.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="Farmer_Logic.cs" />
+    <Compile Include="Farmer_UI.cs" />
+    <Compile Include="Info.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
