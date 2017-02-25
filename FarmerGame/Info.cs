@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 //*******************************
 //Programmer:  Grant Thompson
@@ -38,6 +39,14 @@ namespace FarmerGame
             Console.WriteLine("eat the Chicken.");
             Console.WriteLine("\n\nPress any key to begin.");
             Console.ReadKey();
+        }
+
+        public void GoodBye()
+        {
+            Console.Clear();
+            Console.WriteLine("Thanks for playing my Farmer Game!\n\n\tGoodBye.....");
+            Thread.Sleep(5000);
+
         }
     }
 }

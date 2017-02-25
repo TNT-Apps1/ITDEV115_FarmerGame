@@ -19,6 +19,7 @@ namespace FarmerGame
         {
             Info info_1 = new Info();
             Controller controller = new Controller();
+            info_1.GoodBye();
         }
     }
 }
